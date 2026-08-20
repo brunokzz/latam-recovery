@@ -15,8 +15,8 @@ export default function App() {
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/servicio/:slug" element={<ServicioDetalle />} />
+          <Route path="/latam-recovery" element={<Home />} />
+          <Route path="/latam-recovery/servicio/:slug" element={<ServicioDetalle />} />
         </Routes>
       </main>
       <Footer />
