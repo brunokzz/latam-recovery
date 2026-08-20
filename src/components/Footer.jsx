@@ -12,13 +12,13 @@ export default function Footer() {
             {/* TODO: confirmar dirección definitiva */}
             Badajoz 100 Of 512, Las Condes, Santiago
             <br />
-            Teléfono: {/* TODO */}
+            Teléfono: +56927743766
             <br />
             LATAM RECOVERY SPA
             <br />
             RUT: 77.959.219-7
             <br />
-            Email: {/* TODO */}
+            Email: info@latamcollect.com.ar
           </p>
         </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
       <div className="footer-copyright">
         <div className="container">
           <small>
-            LATAM RECOVERY SPA © {year} {/* TODO: mantener o quitar "desarrollado por" original */}
+            LATAM RECOVERY SPA © {year}
           </small>
         </div>
       </div>

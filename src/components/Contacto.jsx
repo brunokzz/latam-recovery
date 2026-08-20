@@ -24,7 +24,7 @@ export default function Contacto() {
               <strong>Email:</strong> info@latamrecovery.cl
             </p>
             <p>
-              <strong>Teléfono:</strong> +56 2 XXXX XXXX
+              <strong>Teléfono:</strong> +56 9 2774 3766
             </p>
           </div>
         </div>
