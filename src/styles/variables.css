@@ -1,0 +1,74 @@
+:root {
+  --color-primary: #8ecbde;       /* celeste institucional (íconos, acentos, botones) */
+  --color-primary-dark: #6fb3c9;
+  --color-bg-light: #dbf3fc;      /* fondo celeste clarito de secciones (Valores/Vision/Tec) */
+  --color-bg-lighter: #def0f6;    /* fondo celeste aún más clarito (Tecnología / bloque contacto) */
+  --color-dark: #2d2d2d;          /* texto oscuro de títulos */
+  --color-text: #515151;          /* texto de párrafos */
+  --color-footer-bg: #14395a;     /* footer azul oscuro */
+  --color-white: #ffffff;
+
+  --font-primary: 'Ubuntu', sans-serif; /* la tipografía que carga el sitio original vía Google Fonts */
+  --font-text: system-ui, sans-serif;
+
+  --container-max: 1222px;
+  --radius-btn: 999px; /* btn-shape-round / semi-round del tema original */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-text);
+  color: var(--color-text);
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: var(--radius-btn);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: var(--color-dark);
+  color: var(--color-white);
+}
+
+.btn-outline {
+  background: transparent;
+  border-color: var(--color-dark);
+  color: var(--color-dark);
+}
+
+.eyebrow {
+  font-size: 40px;
+  color: rgba(142, 203, 222, 0.35);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 -10px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 300;
+  color: var(--color-dark);
+  margin: 0 0 20px;
+}
+
+.section-title strong {
+  font-weight: 700;
+}
