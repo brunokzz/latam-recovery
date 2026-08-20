@@ -1,5 +1,6 @@
 {
   "name": "proyecto-sitio-web",
+  "homepage": "https://brunokzz.github.io/latam-recovery",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "lucide-react": "^1.33.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
