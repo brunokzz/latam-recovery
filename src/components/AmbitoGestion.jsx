@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const servicios = [
   {
     title: "Gestión Extra Judicial",
-    href: "/servicio/gestion-extrajudicial",
-    image: "./img-servicios/extrajudicial.jpg",
+    href: "/latam-recovery/servicio/gestion-extrajudicial",
+    image: "/latam-recovery/img-servicios/extrajudicial.jpg",
     description: `Mora preventiva: es una gestión amistosa con el fin de anticiparnos antes que el cliente se convierta en deudor "recordándole" el vencimiento de su obligación y comprometiéndolo con una fecha de pago. Se trata de clientes con posibilidades de atraso o por no tener conocimiento adecuado del funcionamiento del producto.
 
 Mora temprana: gestionar los clientes en atraso para la regularización de su deuda evitando el pase a mora avanzada con mayores impactos en resultados.
@@ -13,22 +13,22 @@ Mora avanzada: contamos con la experiencia de expertos en negociación de deudas
   },
   {
     title: "Gestión Judicial",
-    href: "/servicio/gestion-judicial",
-    image: "./img-servicios/judicial.jpg",
+    href: "/latam-recovery/servicio/gestion-judicial",
+    image: "/latam-recovery/img-servicios/judicial.jpg",
     description:
       "Nuestro staff cuenta con letrados especializados en la gestión de cobranzas y recuperos judiciales, ejecuciones y secuestros prendarios, ejecuciones hipotecarias y representación en los laudos administrativos y judiciales en acciones con fundamentos en la Ley de Defensa del Consumidor.",
   },
   {
     title: "Auditorías de Gestión",
-    href: "/servicio/auditorias-gestion",
-    image: "./img-servicios/auditorias.jpg",
+    href: "/latam-recovery/servicio/auditorias-gestion",
+    image: "/latam-recovery/img-servicios/auditorias.jpg",
     description:
       "Contamos con un staff que nos permite realizar controles de Gestión a Agencias / Estudios Jurídicos con el fin de detectar desvíos y contribuir a la Eficiencia de la gestión.",
   },
   {
     title: "Consultorías de Cobranzas",
-    href: "/", // Redirige al inicio
-    image: "./img-servicios/consultorias.jpg",
+    href: "/latam-recovery/", // Redirige al inicio
+    image: "/latam-recovery/img-servicios/consultorias.jpg",
     description: ""
   }
 ];

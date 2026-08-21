@@ -7,7 +7,7 @@ export default function ServicioDetalle() {
 
   // Si la ruta no existe en nuestros datos, redirige al Home
   if (!servicio) {
-    return <Navigate to="/" replace />;
+    return <Navigate to="/latam-recovery" replace />;
   }
 
   return (
@@ -24,7 +24,7 @@ export default function ServicioDetalle() {
           {/* Columna Derecha: Contenido */}
           <div className="servicio-detalle-info-col">
             <nav className="breadcrumb">
-              <Link to="/">Inicio</Link> / <span>Sin categorizar</span> / <strong>{servicio.titulo}</strong>
+              <Link to="/latam-recovery">Inicio</Link> / <span>Sin categorizar</span> / <strong>{servicio.titulo}</strong>
             </nav>
 
             <h1 className="servicio-detalle-title">{servicio.titulo}</h1>

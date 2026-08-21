@@ -21,7 +21,7 @@ export default function Contacto() {
             <div className="contacto-icon">✉️</div>
             <h4>Atención y Consultas</h4>
             <p>
-              <strong>Email:</strong> info@latamrecovery.cl
+              <strong>Email:</strong> info@latamcollect.com.ar
             </p>
             <p>
               <strong>Teléfono:</strong> +56 9 2774 3766
